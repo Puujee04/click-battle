@@ -1,0 +1,56 @@
+.flex{
+    display: flex;
+}
+.flex.just-center{
+    justify-content: center;
+}
+.flex.just-even{
+    justify-content: space-evenly;
+}
+.flex.align-center{
+    align-items: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+.body-container{
+    height: 70%;
+    width: 80%;
+    background-color: rgb(243, 240, 45);
+    border: black 1px solid;
+}
+.top{
+    height: 50%;
+}
+h1{
+    font-size: 200px;
+}
+.bottom{
+    height: 50%;
+    width: 100%;
+}
+.team1-square{
+    height: 100%;
+    width: 50%;
+    background-color: red;
+}
+.team2-square{
+    height: 100%;
+    width: 50%;
+    background-color: blue;
+}
+.reset-btn{
+    height: 50px;
+    width: 100px;
+}
