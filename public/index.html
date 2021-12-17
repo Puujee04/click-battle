@@ -21,6 +21,20 @@
             </div>
         </div>
     </div>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script>
+        // Initialize Cloud Firestore through Firebase
+        firebase.initializeApp({
+            apiKey: "AIzaSyDaI2qRpR8yG-XHvQxAVvP9UcCkbbtJxwA",
+            authDomain: "click-battle-24628.firebaseapp.com",
+            projectId: "click-battle-24628",
+            storageBucket: "click-battle-24628.appspot.com",
+            messagingSenderId: "597450283529",
+            appId: "1:597450283529:web:6e35eb0b582cf4238736d8"
+        });
+    const db = firebase.firestore();
+    </script>
     <script src="./app.js"></script>
 </body>
 </html>
